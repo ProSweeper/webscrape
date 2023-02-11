@@ -1,0 +1,24 @@
+{
+  fruit: {
+    apple : {
+      storageTips: "",
+      roomtempdays: int,
+      fridgeDays: int, 
+      freezerDays: int
+      // more data to come ?? 
+    }
+  },
+  meat: {},
+}
+
+in the ingredient model
+storageLife{
+  roomtemp: int (days),
+  fridge: int,
+  freezer: int
+}
+
+in the storage model
+storageMethod: 
+dateIn + storageLife[StorageMethod] = expDate
+
